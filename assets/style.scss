@@ -1,13 +1,14 @@
 $background-color: #ffffff;
-$button-bg: #992e2e;
+$chat-now-button-bg: #992e2e;
+$learn-more-button-border-color: #091133;
 $brand-color: #b80b0b;
 $text-color: #ffffff;
-$link-color: $button-bg;
-$link-color-hover: lighten($button-bg, 10%);
+$link-color: $chat-now-button-bg;
+$link-color-hover: lighten($chat-now-button-bg, 10%);
 $footer-bg-color: #ffe8e8;
 $copyright-color: #939ea4;
 $line-color: #cdd1d4;
-$hero-color: $button-bg;
+$hero-color: $chat-now-button-bg;
 
 html,
 body {
@@ -72,7 +73,7 @@ header {
 }
 
 .chat-now-button {
-  background-color: $button-bg;
+  background-color: $chat-now-button-bg;
   border-radius: 2px;
 
   /* Medium 12 */
@@ -196,4 +197,50 @@ hr {
     /* or 167% */
     color: $hero-color;
   }
+
+  .buttons {
+    .chat-now-button-text {
+      padding: 9px 48px;
+    }
+
+    .chat-now-button {
+      background-color: $chat-now-button-bg;
+      border-radius: 2px;
+
+      /* Medium 12 */
+
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      /* identical to box height, or 150% */
+
+      text-align: center;
+    }
+  }
+}
+
+.learn-more-button {
+  /* Colour/Main/Blue/900 */
+
+  border: 2px solid $learn-more-button-border-color;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  /* Medium 12 */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+}
+.learn-more-button:active {
+  border: 2px solid $chat-now-button-bg;
+}
+
+.learn-more-button-text {
+  padding: 9px 48px;
 }

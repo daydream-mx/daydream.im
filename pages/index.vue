@@ -1,9 +1,25 @@
 <template>
   <div class="hero-content">
-    <h1 class="hero-title">Fast and Modern Matrix in Rust</h1>
-    <p>Daydream is a fast and modern Matrix Client purely written in Rust with the power of Webassembly.</p>
-    <p>It features a modern design, good performance, a dark theme and much more.</p>
-    <p>Everything you use in Daydream is available as Open Source. Check it out!</p>
+    <h1 class="hero-title">{{ $t('hero.title') }}</h1>
+    <p>{{ $t('hero.paragraph1') }}</p>
+    <p>{{ $t('hero.paragraph2') }}</p>
+    <p>{{ $t('hero.paragraph3') }}</p>
+    <div class="buttons flex-row">
+      <div class="chat-now-button-wrapper">
+        <a href="https://app.daydream.im/">
+          <div class="chat-now-button">
+            <div class="chat-now-button-text">{{ $t('chat-now') }}</div>
+          </div>
+        </a>
+      </div>
+      <div class="learn-more-button-wrapper">
+        <a href="https://github.com/daydream-mx/Daydream">
+          <div class="learn-more-button">
+            <div class="learn-more-button-text">{{ $t('learn-more') }}</div>
+          </div>
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 

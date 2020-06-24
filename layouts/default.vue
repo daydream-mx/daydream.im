@@ -5,7 +5,7 @@
         <div class="content flex-row">
           <nav class="links">
             <nuxt-link :to="localePath('/')">{{ $t('home') }}</nuxt-link>
-            <a href="https://github.com/MTRNord/Daydream">{{ $t('source') }}</a>
+            <a href="https://github.com/daydream-mx/Daydream">{{ $t('source') }}</a>
             <a href="https://matrix.to/#/#daydream:nordgedanken.dev">{{ $t('chat') }}</a>
           </nav>
 
@@ -42,7 +42,7 @@
           <div class="bottom flex-row">
             <nav class="links">
               <nuxt-link :to="localePath('/')">{{ $t('home') }}</nuxt-link>
-              <a href="https://github.com/MTRNord/Daydream">{{ $t('source') }}</a>
+              <a href="https://github.com/daydream-mx/Daydream">{{ $t('source') }}</a>
               <a href="https://matrix.to/#/#daydream:nordgedanken.dev">{{ $t('chat') }}</a>
             </nav>
 
