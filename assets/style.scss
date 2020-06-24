@@ -58,6 +58,18 @@ header {
   line-height: 38px;
 }
 
+.chat-now-button-wrapper {
+  a {
+    /* Colour/Secondary/White 100 (general) */
+
+    color: $text-color;
+  }
+
+  a:hover {
+    color: darken($text-color, 10%);
+  }
+}
+
 .chat-now-button {
   background-color: $button-bg;
   border-radius: 2px;
@@ -78,16 +90,7 @@ header {
 }
 
 .chat-now-button-text {
-  margin: 6px 54px;
-  a {
-    /* Colour/Secondary/White 100 (general) */
-
-    color: $text-color;
-  }
-
-  a:hover {
-    color: darken($text-color, 10%);
-  }
+  padding: 6px 54px;
 }
 
 a {
