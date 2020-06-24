@@ -12,6 +12,7 @@
 import { getPosts } from '../../api/posts'
 
 export default {
+  layout: 'blog',
   async asyncData () {
     const posts = await getPosts()
     // eslint-disable-next-line object-shorthand

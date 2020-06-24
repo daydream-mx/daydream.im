@@ -7,6 +7,7 @@ $link-color-hover: lighten($button-bg, 10%);
 $footer-bg-color: #ffe8e8;
 $copyright-color: #939ea4;
 $line-color: #cdd1d4;
+$hero-color: $button-bg;
 
 html,
 body {
@@ -164,4 +165,35 @@ hr {
   max-height: 57.75rem;
   right: -34.1875rem;
   top: -4rem;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  /* or 132% */
+
+  letter-spacing: 1px;
+
+  /* Colour/Main/Blue/900 */
+
+  color: #091133;
+
+  margin-bottom: 1.25rem;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 31.875rem;
+  max-width: 31.875rem;
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: $hero-color;
+  }
 }
