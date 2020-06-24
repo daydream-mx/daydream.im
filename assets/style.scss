@@ -1,0 +1,164 @@
+$background-color: #ffffff;
+$button-bg: #992e2e;
+$brand-color: #b80b0b;
+$text-color: #ffffff;
+$link-color: $button-bg;
+$link-color-hover: lighten($button-bg, 10%);
+$footer-bg-color: #ffe8e8;
+$copyright-color: #939ea4;
+$line-color: #cdd1d4;
+
+html,
+body {
+  height: 100vh;
+}
+body {
+  margin: 0;
+  background-color: $background-color;
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.full-wrapper {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.content {
+  width: 100%;
+  max-width: 99.375rem;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  height: 3.75rem;
+}
+
+.brand {
+  color: $brand-color;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+.chat-now-button {
+  background-color: $button-bg;
+  border-radius: 2px;
+
+  /* Medium 12 */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+}
+
+.chat-now-button:active {
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.chat-now-button-text {
+  margin: 6px 54px;
+  a {
+    /* Colour/Secondary/White 100 (general) */
+
+    color: $text-color;
+  }
+
+  a:hover {
+    color: darken($text-color, 10%);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+}
+
+a:hover {
+  color: $link-color-hover;
+}
+
+a + a {
+  margin-left: 60px;
+}
+
+footer {
+  background-color: $footer-bg-color;
+  padding-top: 68px;
+  padding-bottom: 32px;
+
+  * {
+    .top {
+      .chat-now-button-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+      }
+
+      margin-bottom: 47px;
+    }
+    .bottom {
+      margin-top: 20px;
+    }
+  }
+}
+
+.copyright {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: $copyright-color;
+}
+
+hr {
+  border: 1px solid $line-color;
+}
+
+.illustration {
+  z-index: -100;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  max-width: 50.050625rem;
+  max-height: 31.26rem;
+  right: 9.9475rem;
+  top: 16.1875rem;
+}
+
+.illustration-bg {
+  z-index: -150;
+  /* Path */
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  max-width: 116.3125rem;
+  max-height: 57.75rem;
+  right: -34.1875rem;
+  top: -4rem;
+}
