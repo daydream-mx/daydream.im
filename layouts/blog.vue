@@ -9,7 +9,7 @@
             <a href="https://matrix.to/#/#daydream:nordgedanken.dev">{{ $t('chat') }}</a>
           </nav>
 
-          <div class="brand">Daydream</div>
+          <h1 class="brand">Daydream</h1>
 
           <div class="chat-now-button-wrapper">
             <a href="https://app.daydream.im/">
@@ -28,8 +28,8 @@
       <footer>
         <div class="content">
           <div class="top flex-row">
-            <div class="copyright">&copy;2020 MTRNord</div>
-            <div class="brand">Daydream</div>
+            <span class="copyright">&copy;2020 MTRNord</span>
+            <h1 class="brand">Daydream</h1>
             <div class="chat-now-button-wrapper">
               <a href="https://app.daydream.im/">
                 <div class="chat-now-button">

@@ -54,10 +54,13 @@ header {
 
 .brand {
   color: $brand-color;
+  font-family: "Dancing Script", "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 38px;
+  font-weight: bold;
+  font-size: 4.3125rem;
+  margin: 0;
+
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2), 0 1px 18px rgba(0, 0, 0, 0.12), 0 6px 10px rgba(0, 0, 0, 0.14);
 }
 
 .chat-now-button-wrapper {
@@ -189,6 +192,7 @@ hr {
   max-width: 31.875rem;
   max-width: 31.875rem;
   margin-top: 12.0625rem;
+  margin-bottom: 16.25rem;
 
   p {
     font-style: normal;

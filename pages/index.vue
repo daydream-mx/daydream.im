@@ -1,6 +1,6 @@
 <template>
   <div class="hero-content">
-    <h1 class="hero-title">{{ $t('hero.title') }}</h1>
+    <h2 class="hero-title">{{ $t('hero.title') }}</h2>
     <p>{{ $t('hero.paragraph1') }}</p>
     <p>{{ $t('hero.paragraph2') }}</p>
     <p>{{ $t('hero.paragraph3') }}</p>
