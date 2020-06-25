@@ -26,6 +26,12 @@ body {
   margin: 0 auto;
 }
 
+.default {
+  background-repeat: no-repeat;
+  background-image: url(~assets/bg.svg);
+  background-position: calc(100vw/3.5) 0px;
+}
+
 .wrapper {
   display: flex;
   min-height: 100vh;
