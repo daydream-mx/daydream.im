@@ -20,7 +20,7 @@
           </div>
         </div>
       </header>
-      <main>
+      <main class="hero-bg">
         <div class="content">
           <Nuxt />
         </div>

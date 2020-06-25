@@ -26,10 +26,10 @@ body {
   margin: 0 auto;
 }
 
-.default {
+.hero-bg {
   background-repeat: no-repeat;
   background-image: url(~assets/bg.svg);
-  background-position: calc(100vw/3.5) 0px;
+  background-position: right calc((100vw/3.5)*-1) center;
 }
 
 .wrapper {
