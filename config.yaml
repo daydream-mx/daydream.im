@@ -19,7 +19,7 @@ params:
   description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/DaydreamLogo_Square.svg
     link: /
   font:
     name: "Open Sans"
@@ -116,25 +116,17 @@ params:
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: HR Manager
       img: 3
-  section5: true
+  section5: false
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: DaydreamLogo_Normal Wide.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
+    - link: https://github.com/daydream-mx/Daydream
       # Icons are from Font Awesome
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
     bulmalogo: true
     quicklinks:
       column1:
@@ -142,29 +134,10 @@ params:
         links:
         - text: Discover features
           link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
         - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
-      column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
           link: /
       column3:
         title: "Blog"
         links:
         - text: Latest news
           link: /blog/first
-        - text: Tech articles
-          link: /blog/second

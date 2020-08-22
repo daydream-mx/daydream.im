@@ -6181,8 +6181,8 @@ Navbar
   .navbar.is-fresh .navbar-brand {
     min-height: 4rem; }
     .navbar.is-fresh .navbar-brand img {
-      max-height: 36px !important;
-      height: 36px; }
+      max-height: 60px !important;
+      height: 60px; }
     .navbar.is-fresh .navbar-brand:hover .navbar-item {
       background: transparent !important; }
   .navbar.is-fresh .navbar-end {
@@ -6403,7 +6403,7 @@ footer.footer-dark {
   footer.footer-dark .columns {
     margin-top: 35px; }
   footer.footer-dark .footer-logo img {
-    height: 40px; }
+    height: 80px; }
   footer.footer-dark .footer-column .footer-header h3 {
     font-weight: 500;
     font-size: 1.2rem;
