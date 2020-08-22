@@ -16,7 +16,7 @@ params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy 
-  description: 
+  description: A Matrix Client written in Rust using WebAssembly.
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/DaydreamLogo_Square.svg
@@ -37,7 +37,7 @@ params:
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
     #clientlogos:
-    #- systek
+    #- matrix
     #- tribe
     #- kromo
     #- infinite
@@ -46,6 +46,8 @@ params:
   navbar:
   - title: Source Code
     url: https://github.com/daydream-mx/Daydream
+  - title: Matrix.org
+    url: https://matrix.org
   #- title: Pricing
   #  url: /
   #- title: Dropdown
@@ -62,60 +64,60 @@ params:
   #  url: /
   #  button: true
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Features
+    #subtitle: with great responsibility
     tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
+    - title: Modern Design
+      icon: laptop-rocket
+      text: We aim to stay modern and sharp with the design
+      #url: /
+      #buttonText: Free trial
+    - title: Good Performance
+      icon: laptop-performance
+      text: WASM allows to provide a high performance MatrixClient
+      #url: /
+      #buttonText: Get started
+    - title: Open Source
+      icon: laptop-github
+      text: All Source is publicly available on Github
+      url: https://github.com/daydream-mx/Daydream
+      buttonText: Get Source
+  #section2:
+  #  title: You're here because you want the best
+  #  subtitle: And we know it
+  #  features:
+  #  - title: Powerful and unified interface
+  #    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #    # Icon (from /images/illustrations/icons/___.svg)
+  #    icon: laptop-globe
+  #  - title: Cross-device synchronisation
+  #    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #    icon: doc-sync
+  #  - title: Nomad system
+  #    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+  #    icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title: Daydream
+    subtitle: The first wasm Matrix Client
     image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+    buttonText: Start Chatting
+    buttonLink: "https://app.daydream.im"
+  #section4:
+  #  title: Our Clients love us!
+  #  subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #  clients:
+  #  - name: Irma Walters
+  #    quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #    job: Accountant
+  #    img: 1
+  #  - name: John Bradley
+  #    quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #    job: Financial Analyst
+  #    img: 2
+  #  - name: Gary Blackman
+  #    quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #    job: HR Manager
+  #    img: 3
   section5: false
   footer:
     # Logo (from /images/logos/___)
@@ -135,9 +137,9 @@ params:
         - text: Discover features
           link: /
         - text: Our roadmap
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
+          link: https://github.com/daydream-mx/Daydream/issues
+      #column2:
+      #  title: "Blog"
+      #  links:
+      #  - text: Latest news
+      #    link: /blog/
