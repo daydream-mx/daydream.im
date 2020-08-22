@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{125:function(t){t.exports=JSON.parse('{"home":"Start","chat":"Chat","source":"Quellcode","chat-now":"Jetzt chatten"}')}}]);
